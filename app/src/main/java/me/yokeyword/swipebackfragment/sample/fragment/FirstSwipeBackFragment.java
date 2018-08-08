@@ -20,10 +20,12 @@ public class FirstSwipeBackFragment extends BaseSwipeBackFragment {
     public static FirstSwipeBackFragment newInstance() {
 
         Bundle args = new Bundle();
+        int aa = 0;
 
         FirstSwipeBackFragment fragment = new FirstSwipeBackFragment();
         fragment.setArguments(args);
         return fragment;
+
     }
 
 
